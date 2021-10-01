@@ -1,0 +1,87 @@
+main{
+    max-width:960px;
+    background:white;
+    padding:1em;
+    margin: 0 auto;
+    
+    }
+    body{
+      margin: 0 auto;
+      background:#F1FAEE;
+      animation-name:fadein;
+      animation-duration:1s;
+    }
+    header{
+    height: 213px;
+    width:100%;
+      padding-bottom:50px;
+      margin-right:0px;
+    }
+    nav ul{
+      list-style-type:none;
+      display:flex;
+      line-height:1em;
+    }
+
+    @keyframes fadein{
+      0%{
+        opacity:50%;
+        top:-20px;
+    }
+      100%{
+        opacity:100%;
+        top:0px;
+      }
+    }
+    nav a{
+      color: white;
+      padding:1.2em;
+    }
+    nav a:hover{
+      background-color:#457B9D;
+    }
+
+    footer{
+      background:linear-gradient(#457B9D 1%, #1D3557);
+      color:white;
+      padding:.75em;
+    }
+
+    #stickyh{
+      position:fixed;
+      right:0px;
+      height:213px;
+      width:100%;
+      background:linear-gradient(#1D3557 92%, #457B9D);
+      color:white;
+      top:0;
+      box-shadow: 0px 1px 5px black;
+    }
+    footer a{
+      color:white;
+    }
+    img{
+      display:block;
+      max-width:100%;
+      height:auto;
+    }
+    #header-top{
+      display:flex;
+    }
+    #header-right{
+      padding-left:1em;
+    }
+    
+    #image{
+      max-width:100%;
+      height: auto;
+     /* min-width:314px; */
+      margin: 0 auto;
+    }
+    #portrait{
+      min-width:100px;
+      max-width:150px;
+      height:auto;
+    }
+    
+    

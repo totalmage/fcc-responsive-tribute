@@ -1,0 +1,129 @@
+<!-- 
+Creator: Easterling Carpenter 2021
+This is a project to complete the "Tribute Page" requirement for the Responsive Web Design Certificate on freecodecamp.org.
+The requirements are the following:
+
+X- User Story #1: My tribute page should have an element with a corresponding id="main", which contains all other elements.
+
+X- User Story #2: I should see an element with a corresponding id="title", which contains a string (i.e. text) that describes the subject of the tribute page (e.g. "Dr. Norman Borlaug").
+
+X- User Story #3: I should see a div element with a corresponding id="img-div".
+
+X- User Story #4: Within the img-div element, I should see an img element with a corresponding id="image".
+
+X- User Story #5: Within the img-div element, I should see an element with a corresponding id="img-caption" that contains textual content describing the image shown in img-div.
+
+X- User Story #6: I should see an element with a corresponding id="tribute-info", which contains textual content describing the subject of the tribute page.
+
+X- User Story #7: I should see an a element with a corresponding id="tribute-link", which links to an outside site that contains additional information about the subject of the tribute page. HINT: You must give your element an attribute of target and set it to _blank in order for your link to open in a new tab (i.e. target="_blank").
+
+X- User Story #8: The img element should responsively resize, relative to the width of its parent element, without exceeding its original size.
+
+User Story #9: The img element should be centered within its parent element.
+-->
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta lang="us-en" />
+    <title>A Tribute: Russell M. Nelson</title>
+    <link type="text/css" rel="stylesheet" href="styles.css" />
+  </head>
+  <main id="main">
+    <header id="move-head">
+      <div id="stickyh">
+        <div id="header-top">
+          <div id="header-left">
+            <img
+              src="https://noticias-es.laiglesiadejesucristo.org/media/orig/president-nelson-2018_2.jpg"
+              alt="a portrait of Russel M. Nelson"
+              id="portrait"
+            />
+          </div>
+          <div id="header-right">
+            <h1 id="title">
+              Russell M. Nelson
+            </h1>
+            <h2>
+              The best spiritual and temporal medic of our generation
+            </h2>
+          </div>
+        </div>
+        <nav id="pagenav">
+          <ul>
+            <li><a href="#article">Intro</a></li>
+            <li><a href="#acheivements">Life Facts</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+    <body>
+      <div class="content">
+        <article>
+          <div id="article">
+            <h3>
+              Called to serve and to heal
+            </h3>
+            <p id="tribute-info">
+              Russell M. Nelson is perhaps one of the most important men of his
+              time. Having contributed greatly to the field of heart surgeries
+              and being called as the current leader of one of the most rapidly
+              growing religions, progress has been a part of him from the
+              beginning and it does not look like he will stop soon.
+            </p>
+          </div>
+          <div id="img-div">
+            <figure>
+              <img
+                src="https://brightspot-assets.churchofjesuschrist.org/dims4/default/5d932a1/2147483647/strip/false/crop/5184x3456+0+0/resize/1920x1280!/format/jpg/quality/90/?url=https%3A%2F%2Fassets.ldscdn.org%2F73%2F86%2F7386fb3c8fd6e7feaab8157f78b95ab4d6b74726%2Frootstech_2017_russell_m_nelson_wendy_nelson.jpeg"
+                alt="Russell M. Nelson alongside his wife Wendy Nelson in a fireside"
+                id="image"
+              />
+            </figure>
+            <figcaption id="img-caption">
+              Russell M. Nelson alongside his wife, Wendy Nelson in a fireside
+            </figcaption>
+          </div>
+        </article>
+        <section id="acheivements">
+          <h3>
+            Life Facts
+          </h3>
+          <ul>
+            <li>
+              Built the first heart-lung bypass machine in order to perform
+              open-heart surgeries
+            </li>
+            <li>
+              Performed nearly 7,000 surgeries before his call as an apostle
+              across least 4 continents
+            </li>
+            <li>
+              Gave 35 years of service as an Apostle for the Church of Jesus
+              Christ of Latter-day Saints
+            </li>
+            <li>He met his wife will performing theater</li>
+          </ul>
+          <p>
+            To read more information about Russell M. Nelson you may read the
+            article on
+            <a
+              href="https://www.churchofjesuschrist.org/learn/russell-m-nelson?lang=ENG"
+              target="_blank"
+              id="tribute-link"
+              >theChurchOfJesusChrist.org</a
+            >.
+          </p>
+        </section>
+      </div>
+    </body>
+    <footer>
+      <p>
+        Project made to comply with the requirements for the FreeCodeCamp
+        Responsive Web Design Certificate
+      </p>
+      <p>
+        Github: <a href="https://github.com/totalmage" target="_blank">totalmage</a>
+      </p>
+    </footer>
+  </main>
+</html>
